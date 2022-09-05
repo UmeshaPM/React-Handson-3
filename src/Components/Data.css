@@ -1,0 +1,57 @@
+body{
+    background-color: yellowgreen;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(122, 5, 26);
+}
+
+form{
+    text-align: center;
+ }
+ label{
+     font-weight: 600;
+     font-size: 22px;
+ }
+ input{
+     padding: 12px 20px;
+     margin: 20px;
+     border: 2px solid rgb(160, 66, 66);
+     border-radius: 15px;
+ }
+ input[type="submit"]{
+     background-color: rgb(240, 179, 248);
+     width: 150px;
+     border-radius: 22px;
+     font-size: 19px;  
+ }
+ input{
+    text-align: center;
+ }
+ 
+.outerbox{
+    border: 2px solid black;
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.databox{
+    border: 2px solid rgb(229, 77, 77);
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 17px;
+}
+button{
+    margin-left: 40%;
+    margin-top: 70px;
+    background-color:  rgb(112, 235, 167);
+    padding: 18px 30px;
+    border-radius: 25px;
+    width: 20%;
+    font-size: 20px;
+}
